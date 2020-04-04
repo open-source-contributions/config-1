@@ -4,12 +4,12 @@ namespace Sinergi\Config\Tests;
 
 use Dotenv\Dotenv;
 use Sinergi\Config\Collection;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use Sinergi\Config\Configuration;
 use Sinergi\Config\Factory;
 use Sinergi\Config\Path\PathCollection;
 
-class ConfigurationTest extends PHPUnit_Framework_TestCase
+class ConfigurationTest extends TestCase
 {
     public function testArray()
     {

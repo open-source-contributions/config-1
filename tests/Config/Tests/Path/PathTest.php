@@ -2,11 +2,11 @@
 
 namespace Sinergi\Config\Tests;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use Sinergi\Config\Configuration;
 use Sinergi\Config\Path\Path;
 
-class PathTest extends PHPUnit_Framework_TestCase
+class PathTest extends TestCase
 {
     public function testConfigConstructor()
     {

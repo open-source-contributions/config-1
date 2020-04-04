@@ -2,10 +2,10 @@
 
 namespace Sinergi\Config\Tests\Loader;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use Sinergi\Config\Loader\YamlLoader;
 
-class YamlLoaderTest extends PHPUnit_Framework_TestCase
+class YamlLoaderTest extends TestCase
 {
     public function testYamlLoader()
     {

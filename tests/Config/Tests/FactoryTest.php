@@ -3,10 +3,10 @@
 namespace Sinergi\Config\Tests;
 
 use Sinergi\Config\Collection;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use Sinergi\Config\Factory;
 
-class FactoryTest extends PHPUnit_Framework_TestCase
+class FactoryTest extends TestCase
 {
     public function testFactory()
     {

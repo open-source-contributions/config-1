@@ -3,9 +3,9 @@
 namespace Sinergi\Config\Tests\Collection;
 
 use Sinergi\Config\Collection;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class CollectionEnvironmentTest extends PHPUnit_Framework_TestCase
+class CollectionEnvironmentTest extends TestCase
 {
     /**
      * @var Collection

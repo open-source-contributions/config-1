@@ -2,10 +2,10 @@
 
 namespace Sinergi\Config\Tests;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use Sinergi\Config\Parser;
 
-class ParserTest extends PHPUnit_Framework_TestCase
+class ParserTest extends TestCase
 {
     public function testGetKey()
     {
@@ -30,7 +30,7 @@ class ParserTest extends PHPUnit_Framework_TestCase
 
     public function testGetValue()
     {
-        $kaystack = [
+        $kayStack = [
             'hi' => [
                 'find' => [
                     'this' => 'Hello'
@@ -38,6 +38,6 @@ class ParserTest extends PHPUnit_Framework_TestCase
             ]
         ];
         list($file, $key, $sub) = Parser::getKey('file.hi.find.this');
-        $this->assertEquals('Hello', Parser::getValue($kaystack, $key, $sub));
+        $this->assertEquals('Hello', Parser::getValue($kayStack, $key, $sub));
     }
 }

@@ -2,11 +2,11 @@
 
 namespace Sinergi\Config\Tests;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use Sinergi\Config\Configuration;
 use Sinergi\Config\Path\PathCollection;
 
-class PathCollectionTest extends PHPUnit_Framework_TestCase
+class PathCollectionTest extends TestCase
 {
     public function testAdd()
     {

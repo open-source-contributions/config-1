@@ -2,10 +2,10 @@
 
 namespace Sinergi\Config\Tests\Loader;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use Sinergi\Config\Loader\PhpLoader;
 
-class PhpLoaderTest extends PHPUnit_Framework_TestCase
+class PhpLoaderTest extends TestCase
 {
     public function testPhpLoader()
     {

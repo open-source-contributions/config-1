@@ -2,10 +2,10 @@
 
 namespace Sinergi\Config\Tests\Collection;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use Sinergi\Config\Collection;
 
-class CollectionDotenvTest extends PHPUnit_Framework_TestCase
+class CollectionDotenvTest extends TestCase
 {
     public function testDotenv()
     {
