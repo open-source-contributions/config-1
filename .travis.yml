@@ -10,11 +10,11 @@ php:
   - 7.2
   - 7.3
   - 7.4
-  - hhvm
   - nightly
 
-allow_failures:
-  - php: nightly
+matrix:
+  allow_failures:
+    - php: nightly
 
 before_script:
   - composer self-update
